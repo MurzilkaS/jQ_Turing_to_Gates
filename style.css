@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+hr{
+    margin: 25 25px;
+}
+
+.header{
+
+padding: 10px;
+background-color: #beb7b7;
+
+}
+.header .icons{
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+
+}
+.header .icons {
+    font-size: 20pt;
+    columns: #fff;
+}
+
+img{
+    width: 70%;
+    height: 100%;
+    margin: 1 auto;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+     
+}
+.secondimgs{
+    display: none;
+}
